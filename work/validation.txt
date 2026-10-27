@@ -1,0 +1,23 @@
+$ python tools/check_frozen_core.py
+FROZEN CORE INTACT
+
+$ python tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/primary.json
+/workspace/scratch/d27a47550d00/Lab5/work/diffusion_agent_primary_prompt.txt
+
+$ python tools/validate_response.py agents/diffusion_agent/responses/primary_response.json
+VALIDATION PASSED
+
+$ python tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/contrast_1.json
+/workspace/scratch/d27a47550d00/Lab5/work/diffusion_agent_contrast_1_prompt.txt
+
+$ python tools/validate_response.py agents/diffusion_agent/responses/contrast_1_response.json
+VALIDATION PASSED
+
+$ python tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/contrast_2.json
+/workspace/scratch/d27a47550d00/Lab5/work/diffusion_agent_contrast_2_prompt.txt
+
+$ python tools/validate_response.py agents/diffusion_agent/responses/contrast_2_response.json
+VALIDATION PASSED
+
+$ python agents/diffusion_agent/check_tests.py
+PASS: exact output keys, five factors, posture-only contrasts, stable evidence, changed timing, preserved failure

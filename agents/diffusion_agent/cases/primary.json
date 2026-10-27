@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI using large language models",
+  "intended_application": "Human-reviewed supplier quotation summaries and draft RFQ comparison notes; no autonomous supplier awards",
+  "organization": "Hypothetical procurement department at a Siemens Energy-like industrial energy equipment manufacturer",
+  "industry_sector": "Industrial energy equipment manufacturing; no internal company information claimed",
+  "business_need": "Reduce repetitive document comparison while preserving traceability",
+  "users_stakeholders": "Procurement analysts, category managers, engineering reviewers, suppliers, IT security and legal",
+  "adoption_posture": "Moderate fast follower; seeks relevant peer evidence before operational expansion",
+  "capabilities_constraints": "Case assumptions: ERP/Ariba workflows, bilingual documents, limited AI evaluation skills, confidential supplier prices, no verified internal pilot data",
+  "risk_consequence_context": "Wrong specification or price could bias purchasing; humans retain approval and procurement authority",
+  "management_question": "What does diffusion evidence imply for timing and peer position of this application?",
+  "time_horizon": "Next 6 months from 2026-10-26",
+  "additional_context": "Hypothetical teaching case selected for this assignment; not instructor-supplied company facts. Use the appended dated evidence register; do not infer sector rates from broad surveys."
+}
