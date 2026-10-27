@@ -1,0 +1,28 @@
+{
+  "runtime": "ChatGPT/Codex interactive assistant in this conversation; shared context, assisted evaluations; no external model invocation",
+  "date": "2026-10-26",
+  "version": "1.2",
+  "runs": [
+    {
+      "case": "primary",
+      "prompt_path": "work/diffusion_agent_primary_prompt.txt",
+      "prompt_sha256": "74770f4f93891a7a8103b8cef0d36624a88223773e683a0155598c7f819f66b3",
+      "response_path": "agents/diffusion_agent/responses/primary_response.json",
+      "response_sha256": "b362c3fe365cc54e605db22e68e98e78635fcfd0da665205a14df3f9514cfc6c"
+    },
+    {
+      "case": "contrast_1",
+      "prompt_path": "work/diffusion_agent_contrast_1_prompt.txt",
+      "prompt_sha256": "f04a2425bb8649be070480a9ed7b3df625ab77385ca7a35bdc4001bce36a084a",
+      "response_path": "agents/diffusion_agent/responses/contrast_1_response.json",
+      "response_sha256": "4563d439a5a8c82fa62ec7bd8b720d4f0c7b6bf383b96761da4564229b148d56"
+    },
+    {
+      "case": "contrast_2",
+      "prompt_path": "work/diffusion_agent_contrast_2_prompt.txt",
+      "prompt_sha256": "7863f859942887ea1913f2c4e6dac7657c4f328f1b4263212a4bbad3827c6218",
+      "response_path": "agents/diffusion_agent/responses/contrast_2_response.json",
+      "response_sha256": "9a1b8ef3366f1ce1826476612c78626c4819d5108d46f4e114b9d3f47614eb44"
+    }
+  ]
+}

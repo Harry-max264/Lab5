@@ -19,10 +19,13 @@ The required primary artifact is the agent plus Agent Record; the memo does not 
 From the repository root, with Python 3:
 ```bash
 python tools/check_frozen_core.py
-python tools/build_prompt.py --agent agents/diffusion_agent --case agents/diffusion_agent/cases/primary.json
+python agents/diffusion_agent/build_packets.py
 python tools/validate_response.py agents/diffusion_agent/responses/primary_response.json
 python agents/diffusion_agent/check_tests.py
 ```
-The saved work/diffusion_agent_*_prompt.txt packets append the dated evidence register. Paste a packet into ChatGPT, review sources, save returned JSON and validate it. Repeat for contrast_1 and contrast_2. Build_prompt creates the base packet; append records/evidence_register.md when rebuilding (the frozen tool intentionally remains unchanged). Structural checks do not verify factual or professional quality.
+The specialist build_packets.py helper builds all three packets and appends the dated evidence register without changing frozen tools. The saved work/diffusion_agent_*_prompt.txt packets include that register. Paste a packet into ChatGPT, review sources, save returned JSON and validate it. Repeat for contrast_1 and contrast_2. Build_prompt creates the base packet; append records/evidence_register.md when rebuilding (the frozen tool intentionally remains unchanged). Structural checks do not verify factual or professional quality.
 
 The original Brightspace ZIP was left unchanged; frozen files in this working copy retain their supplied hashes. Source review and local checks are documented; student review of the proposed independent judgment remains necessary.
+
+## Final revision 1.2
+Application evidence and evaluation provenance were strengthened. Final Agent Record and test record supersede the archived candidate. See records/diffusion_factor_assessment.md, records/run_manifest.json and work/validation.txt. Interactive evaluations share assistant context and are not blind replications. Exact industrial prevalence remains a documented limitation, not an invented conclusion.
