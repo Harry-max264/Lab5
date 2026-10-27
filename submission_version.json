@@ -1,9 +1,10 @@
 {
   "repository": "https://github.com/Harry-max264/Lab5",
   "branch": "main",
-  "implementation_commit": "6684e6f77375503db92cb0a9094fde9c9bfcc606",
-  "agent_version": "1.1",
+  "implementation_commit": "f2c7e71385d3e5c04f925ab830b1e175aa5efa38",
+  "agent_version": "1.2",
   "date": "2026-10-26",
   "record": "agents/diffusion_agent/records/agent_record.md",
-  "note": "This manifest commit documents the implementation commit; it is not a self-referential hash."
+  "evaluation_manifest": "agents/diffusion_agent/records/run_manifest.json",
+  "note": "This documentation commit records the complete implementation candidate; no self-referential commit hash."
 }
